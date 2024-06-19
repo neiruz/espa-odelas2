@@ -171,7 +171,7 @@ font-family: 'Lucida Sans Unicode', sans-serif;
 {
     background: transparent;
     border: 1px solid white;
-    margin-left: 20px;
+   /* margin-left: 20px; */
 }
 
 .hero-text a.ctaa i
@@ -234,7 +234,7 @@ font-family: 'Lucida Sans Unicode', sans-serif;
 
 
 
-
+/*
 
 @media (max-width: 1535px)
 {
@@ -329,9 +329,17 @@ font-family: 'Lucida Sans Unicode', sans-serif;
     }
 
 
-}
+}*/
 
 @media (max-width: 990px){
+
+
+    .hero-img img{
+        transition: .2s;
+        display: none;
+    }
+
+
     #menu-icon{
         display: block;
     }
